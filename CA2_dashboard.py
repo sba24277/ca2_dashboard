@@ -287,7 +287,7 @@ def generate_cluster_map(df_clusters, europe_geojson):
             'fillOpacity': 0.6
         }
     
-    black_sea_tiles = "https://tiles.stadiamaps.com/tiles/alidade_satellite/{z}/{x}/{y}{r}.png"
+    black_sea_tiles = "https://tiles.stadiamaps.com/tiles/alidade_satellite/{z}/{x}/{y}{r}.png?api_key=7133d4cd-39ab-44a1-a1f9-b437c194b25b"
     attr="alidade_satellite"
 
     m = create_cluster_map(black_sea_tiles, attr)
